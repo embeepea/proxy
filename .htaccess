@@ -1,0 +1,6 @@
+Options +ExecCGI
+Header set Access-Control-Allow-Origin *
+<Files "proxy">
+    Allow from all
+    SetHandler cgi-script
+</Files>
